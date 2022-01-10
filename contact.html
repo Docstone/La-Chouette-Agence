@@ -52,7 +52,8 @@
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+						<!-- Ajout attribut alt et aggrandit logo + texte -->
+						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo Chouette - La Chouette Agence - page d'accueil" height="50" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
@@ -110,12 +111,14 @@
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<!-- changement du type bef=email aft=text -->
+								<input class="form-control" type="text" required id="input_504" />
 							</div>
 							<div class="form-group">
 								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								</label>
+								<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 							</div> 
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 								Envoyer
@@ -123,7 +126,7 @@
 						</form>
 					</div>
 					<div class="col-sm-6">
-						<p>
+						<p class="adress-info">
 							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 						</p>
 					</div>
