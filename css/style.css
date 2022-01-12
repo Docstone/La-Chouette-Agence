@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -66,10 +66,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .bg-repeat {
@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -133,7 +132,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -198,10 +197,7 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
-}
+
 
 .l-bloc .icon-round,
 .l-bloc .icon-square,
@@ -284,7 +280,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 4.5rem;
+    font-weight: 700;
 }
 
 .navbar {
@@ -343,7 +340,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -404,7 +401,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+    background: none;
     display: block;
     padding: 14px 15px;
 }
@@ -431,7 +428,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px -5px 0 0;
     float: right;
 }
 
@@ -461,7 +458,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
@@ -475,12 +472,12 @@ button {
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
-.icon-md {
+.icon-md{
     font-size: 30px!important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px;
 }
 
 .sm-shadow {
@@ -651,7 +648,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -692,7 +689,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -713,7 +710,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -723,11 +720,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -736,7 +733,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -759,7 +756,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -775,38 +772,38 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #2A2D2F;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #303030;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #665d5d;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -902,8 +899,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -911,7 +908,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+        float: none;
     }
     .navbar.row {
         margin-left: 0;
@@ -936,7 +933,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
@@ -1038,5 +1035,97 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+/* contrast fixes */
+
+.nav-link{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.bg-contrast{
+    background-color: hsla(19, 85%, 69%, .80);
+    padding: 20px 10px;
+    position: relative;
+    z-index: 100;
+}
+
+.bg-contrast-black{
+    background-color: hsla(0, 1%, 19%, 0.87);
+    padding: 20px 10px 30px;
+    border-radius: 80px;
+    position: relative;
+    z-index: 100;
+}
+
+.text-contrast{
+    color: #F3B196;
+}
+
+.rounded{
+    border-radius: 100px;
+}
+
+.title{
+    font-size: 2.5rem;
+    max-width: 50ch;
+    margin: 0 auto 3rem auto;
+}
+
+.bgc-black{
+    background-color: #303030;
+}
+
+h2{
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+.quote{
+    font-size: 2.5rem;
+    max-width: 50ch;
+}
+
+.quote__sign{
+    font-size: 2rem;
+    color: #000000;
+}
+
+a{
+    color: white;
+}
+
+.social{
+    color: #F3B196;
+}
+
+.form-label{
+    font-size: 2rem;
+    color: black;
+}
+
+.adress-info{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 6rem;
+    background-color: #303030;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+
+@media (max-width: 767px){
+    .img-responsive{
+        margin: 0 auto;
     }
 }
