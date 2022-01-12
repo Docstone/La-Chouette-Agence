@@ -130,8 +130,8 @@ a:hover {
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
+.d-bloc h6 a
+{
     color: white;
 }
 
@@ -147,8 +147,8 @@ a:hover {
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc h6 a:hover
+{
     color: rgba(255, 255, 255, 1);
 }
 
@@ -329,9 +329,16 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover{
+    text-decoration: underline;
+    border-radius: 60px;
     background: transparent;
+}
+
+.nav > li a:focus {
+    text-decoration: underline;
+    border-radius: 60px;
+    border: 2px solid black;
 }
 
 .navbar-toggle {
@@ -453,8 +460,8 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 button {
@@ -466,7 +473,7 @@ button {
 }
 
 .btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
+    border: 2px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
@@ -777,12 +784,14 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #303030;
-    color: #F3976C;
+    color: #F3B196;
+    border: 2px solid #303030;
 }
 
-.btn-atomic-tangerine:hover {
-    background: #665d5d;
-    color: #FFFFFF;
+.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
+    background: #ccc5c5;
+    color: #303030;
+    border: 2px solid black;
 }
 
 .ltc-white {
@@ -1053,7 +1062,7 @@ h4 {
 }
 
 .bg-contrast-black{
-    background-color: hsla(0, 1%, 19%, 0.87);
+    background-color: hsla(0, 1%, 19%, 0.95);
     padding: 20px 10px 30px;
     border-radius: 80px;
     position: relative;
@@ -1076,6 +1085,7 @@ h4 {
 
 .bgc-black{
     background-color: #303030;
+    padding: 20px;
 }
 
 h2{
@@ -1114,16 +1124,42 @@ a{
     color: black;
 }
 
-.adress-info{
-    font-size: 2rem;
+.adress-container{
     color: black;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 8rem;
     line-height: 6rem;
     background-color: #303030;
-    padding: 20px 20px;
-    border-radius: 30px;
+    padding: 60px 0;
+    border-radius: 15px;
+    border: 2px solid #F3B196;
 }
+
+.adress-text{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #F3B196;
+}
+
+.link-contrast{
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-size: 2.1rem;
+}
+
+.link-contrast:hover{
+    color: #F3B196;
+    font-size: 2.1rem;
+}
+.bot-container{
+    width: 60ch;
+    margin: 0 auto;
+}
+
+.font-700{
+    font-weight: 700;
+}
+
 
 @media (max-width: 767px){
     .img-responsive{
