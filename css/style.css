@@ -149,7 +149,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover
 {
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -280,7 +280,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 4.5rem;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 
@@ -702,7 +702,7 @@ p {
     color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -712,7 +712,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.4em;
 }
 
@@ -778,7 +778,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #92370C;
 }
 
 .tc-white {
@@ -786,14 +786,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #303030;
-    color: #F3B196;
+    background: #F3976C;
+    color: #303030;
     border: 2px solid #303030;
 }
 
 .btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
-    background: #ccc5c5;
-    color: #303030;
+    background: #303030;
+    color: #F3976C;
     border: 2px solid black;
 }
 
@@ -1047,9 +1047,10 @@ h4 {
 
 /* contrast fixes */
 
+
 .nav-link{
     color: black!important;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
@@ -1069,19 +1070,32 @@ h4 {
 }
 
 .text-contrast-light{
-    color: #F3B196;
+    color: #F5A884;
 }
 
-
+.text-contrast{
+    color:#4D0600
+}
 
 .title{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     max-width: 50ch;
     margin: 0 auto 3rem auto;
 }
 
+.bgc-title{
+    background-color: #F3976C;
+    position: relative;
+    z-index: 10;
+}
+
 .bgc-black{
     background-color: #2B2B2B;
+    padding: 20px;
+}
+
+.bgc-footer{
+    background-color: #F3976C;
     padding: 20px;
 }
 
@@ -1095,6 +1109,7 @@ h1{
 
 h2{
     font-weight: 500;
+    font-size: 2rem;
 }
 
 h3{
@@ -1122,7 +1137,11 @@ a{
 }
 
 .social{
-    color: #F3B196;
+    color: #4D0600;
+}
+
+.social:hover, .social:focus{
+    color:#FFFFFF
 }
 
 .form-label{
@@ -1148,13 +1167,15 @@ a{
     font-size: 2.1rem;
 }
 
-.link-contrast:hover{
-    color: #F3B196;
-    font-size: 2.1rem;
+.link-contrast:hover, .link-contrast:focus{
+    color: #F5A884;
+    text-decoration: underline;
 }
+
 
 .title-container{
     max-width: 60ch;
+    padding: 10px 0;
     margin: 0 auto;
 }
 
@@ -1169,18 +1190,18 @@ a{
     z-index: 10;
     max-width: 60ch;
     margin: 0 auto;
+    padding:5px 0;
 }
 
 .font-700{
     font-weight: 700;
+    margin: 0;
 }
 
 .focused:focus > img{
     border: 8px solid #d1604a;
     height: 270px;
 }
-
-
 
 
 @media (max-width: 767px){
